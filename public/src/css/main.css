@@ -1,0 +1,150 @@
+body{
+    font-family: lato;
+  }
+  
+  .display{
+    font-size: 70px;
+    font-weight: 900;
+  }
+  
+  h1{
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  h2{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  h3{
+    font-size: 34px;
+    font-weight: 600;
+  }
+  
+  h4{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  h5{
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  h6{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .sub-head-1{
+    font-size: 34px;
+    font-weight: 500;
+  }
+  
+  .sub-head-2{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .sub-head-3{
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  .sub-head-4{
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .sub-head-5{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .sub-head-6{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .body-1{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  
+  .body-2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .body-3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .body-4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 40px;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #6C757D;
+    border-color: #6C757D;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #555D64;
+  }
+  
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #6C757D;
+  }
+  
+  .btn-primary:active {
+    color: #fff;
+    background-color: #6C757D;
+  }
+  
+  .btn-secondary {
+    color: #6C757D;
+    background-color: #FFFFFF;
+    border-color: #6C757D;
+  }
+  
+  .btn-secondary:hover {
+    color: #555D64;
+    background-color: #FFFFFF;
+    border-color: #555D64;
+  }
+  
+  .btn-secondary:focus {
+    color: #6C757D;
+    background-color: #FFFFFF;
+    border-color: #6C757D;
+  }
+  
+  .btn-secondary:active {
+    color: #fff;
+    background-color: #6C757D;
+    border-color: #6C757D;
+  }
+
+  .form-control::placeholder {
+    color: #AAAAAA;
+    opacity: 1;
+    font-size: 17px;
+    font-weight: 400;
+  }
