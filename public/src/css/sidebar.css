@@ -1,0 +1,75 @@
+.nav-side-wrap {
+    padding: 1.5rem 1rem .5rem 1rem;
+    width: 300px;
+    position: fixed;
+    background-color: #fff;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .nav-side-wrap.collapsesb {
+    width: 90px;
+  }
+  .nav-side {
+    margin: 0;
+    padding: 0;
+  }
+  .nav-side a {
+    text-decoration: none;
+  }
+  .app-title {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  .sidebar li {
+    margin-bottom: 0.25rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #E4B23E;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .nav-side-wrap.collapsesb li {
+    width: 50px;
+    overflow: hidden; 
+  }
+  .sidebar li.active {
+    color: #fff;
+    background-color: #E4B23E !important;
+  }
+  .sidebar li span {
+    flex-shrink: 1;
+  }
+  .icon {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-content: center;
+    flex-shrink: 0;
+  }
+  .segment-title {
+    margin: 1rem 0.5rem;
+    color: #6d6d6d;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .segment-title.hide {
+    border-top: solid 2px #6d6d6d;
+    height: 0px;
+    overflow: hidden;
+  }
+  .backhome {
+    background-color: #E2F1F6;
+    justify-content: center;
+  }
+  .body-wrap {
+    margin-left: 300px;
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  .body-wrap.extended {
+    margin-left: 90px;
+  }

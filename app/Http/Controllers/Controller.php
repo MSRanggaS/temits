@@ -10,7 +10,24 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
     public function login() {
-		return view('login');
-	}
+      return view('login');
+    }
+
+    public function home() {
+      return view('home');
+    }
+
+    public function dataPetani() {
+      return view('datapetani');
+    }
+
+    public function dataLadang() {
+      return view('dataladang');
+    }
+
+    public function dataLumbung() {
+      return view('datalumbung');
+    }
 }
