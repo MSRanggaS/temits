@@ -23,3 +23,5 @@ Route::get('/home', [Controller::class, 'home']);
 Route::get('/datapetani', [Controller::class, 'dataPetani']);
 Route::get('/dataladang', [Controller::class, 'dataLadang']);
 Route::get('/datalumbung', [Controller::class, 'dataLumbung']);
+
+Route::get('/adddata', [Controller::class, 'addData']);

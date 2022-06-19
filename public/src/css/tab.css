@@ -1,0 +1,132 @@
+/* TAB */
+.tab .nav-item:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+  
+  .tab .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    background-color: var(--white-color);
+    font-weight: 500;
+  }
+  
+  .tab .nav-link.active {
+    background-color: var(--accent-1);
+  }
+  
+  /* tab line blue */
+  .tab-line-primary .nav-tabs {
+    flex-wrap: nowrap;
+  }
+  
+  .tab-line-primary .nav-tabs .nav-link {
+    flex-shrink: 0;
+    margin-bottom: 0;
+    border-width: 2px;
+    color: var(--font-color);
+  }
+  
+  .tab-line-primary .nav-tabs .nav-link:disabled {
+    color: #9b9b9b;
+    cursor: not-allowed;
+  }
+  
+  .tab-line-primary .nav-tabs .nav-link:disabled:hover {
+    border-color: #9b9b9b #9b9b9b #fff;
+  }
+  
+  .tab-line-primary .nav-tabs .nav-link:not(:last-child) {
+    margin-right: .5rem;
+  }
+  
+  .tab-line-primary .nav-tabs .nav-link.active {
+    border-color: var(--accent-1) var(--accent-1) #fff;
+    margin-bottom: -2px;
+    color: var(--accent-1);
+    font-weight: 500;
+  }
+  
+  .tab-line-primary .nav-tabs .nav-link:hover {
+    border-color: var(--accent-1) var(--accent-1) #fff;
+  }
+  
+  .tab-line-primary .nav-tabs {
+    border-bottom: 2px solid var(--accent-1);
+  }
+  
+  .tab-line-primary .tab-pane {
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  /* scroll tab */
+  .wrapper {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 5px;
+    height: 50px;
+  }
+  
+  .list {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    min-width: 3500px;
+    margin-top: 0px;
+  }
+  
+  .list li {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    cursor: grab;
+    cursor: -webkit-grab;
+    color: #efefef;
+    vertical-align: middle;
+  }
+  
+  .scroller {
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    padding: 7px;
+    padding-top: 13px;
+    white-space: no-wrap;
+    vertical-align: middle;
+    background-color: #fff;
+  }
+  
+  /* ---tab underline nav--- */
+  .tab-underline .nav-item:not(:last-child) {
+    margin-right: 2rem;
+  }
+  
+  .tab-underline .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+    color: var(--font-color);
+    border-radius: 0;
+  }
+  
+  .tab-underline .nav-link.active {
+    background-color: transparent;
+    color: var(--font-color);
+    font-weight: 600;
+    border-bottom: 2px solid #70707080;
+  }
+  
+  /* TAG */
+  .tag-group .tag:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
+  .tag {
+    padding: .5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .tag-primary {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+  }

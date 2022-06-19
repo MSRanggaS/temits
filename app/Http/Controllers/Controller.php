@@ -30,4 +30,8 @@ class Controller extends BaseController
     public function dataLumbung() {
       return view('datalumbung');
     }
+
+    public function addData() {
+      return view('addform');
+    }
 }
