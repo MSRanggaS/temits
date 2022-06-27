@@ -31,6 +31,18 @@
     <button class="nav-link" id="nav-pendapatan-peternakan-tab" data-bs-toggle="tab" data-bs-target="#nav-pendapatan-peternakan" type="button" 
     role="tab" aria-controls="nav-pendapatan-peternakan" aria-selected="false">Pendapatan</button>
   </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="nav-pendapatan-nonpertanian-tab" data-bs-toggle="tab" data-bs-target="#nav-pendapatan-nonpertanian" type="button" 
+    role="tab" aria-controls="nav-pendapatan-nonpertanian" aria-selected="false">Pendapatan</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="nav-pengeluaran-pertanian-tab" data-bs-toggle="tab" data-bs-target="#nav-pengeluaran-pertanian" type="button" 
+    role="tab" aria-controls="nav-pengeluaran-pertanian" aria-selected="false">Pengeluaran</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="nav-konsumsi-tab" data-bs-toggle="tab" data-bs-target="#nav-konsumsi" type="button" 
+    role="tab" aria-controls="nav-konsumsi" aria-selected="false">Konsumsi</button>
+  </li>
 </ul>
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="nav-pribadi" role="tabpanel" aria-labelledby="nav-pribadi-tab">
@@ -164,10 +176,69 @@
           <i class="fas fa-arrow-left me-2"></i>
           Back
         </button>
-        <a href="#" class="btn btn-lg btn-primary">
+        <button type="button" class="btn btn-lg btn-primary"
+          onclick="document.getElementById('nav-pendapatan-nonpertanian-tab').click();">
+          Next
+          <i class="fas fa-arrow-right ms-2"></i>
+        </button>
+      </div>
+    </section>
+  </div>
+  <div class="tab-pane fade" id="nav-pendapatan-nonpertanian" role="tabpanel" aria-labelledby="nav-pendapatan-nonpertanian-tab">
+    <section class="p-4" id="sec-toc">
+      @include('form.adddata.pendapatan-nonpertanian')
+
+      <div class="d-flex justify-content-between mt-4">
+        <button type="button" class="btn btn-lg btn-primary"
+          onclick="document.getElementById('nav-pendapatan-peternakan-tab').click();">
+          <i class="fas fa-arrow-left me-2"></i>
+          Back
+        </button>
+        <button type="button" class="btn btn-lg btn-primary"
+          onclick="document.getElementById('nav-pengeluaran-pertanian-tab').click();">
+          Next
+          <i class="fas fa-arrow-right ms-2"></i>
+        </button>
+      </div>
+    </section>
+  </div>
+  <div class="tab-pane fade" id="nav-pengeluaran-pertanian" role="tabpanel" aria-labelledby="nav-pengeluaran-pertanian-tab">
+    <section class="p-4" id="sec-toc">
+      @include('form.adddata.pengeluaran-pertanian')
+
+      <div class="d-flex justify-content-between mt-4">
+        <button type="button" class="btn btn-lg btn-primary"
+          onclick="document.getElementById('nav-pendapatan-nonpertanian-tab').click();">
+          <i class="fas fa-arrow-left me-2"></i>
+          Back
+        </button>
+        <button type="button" class="btn btn-lg btn-primary"
+          onclick="document.getElementById('nav-konsumsi-tab').click();">
+          Next
+          <i class="fas fa-arrow-right ms-2"></i>
+        </button>
+      </div>
+    </section>
+  </div>
+  <div class="tab-pane fade" id="nav-konsumsi" role="tabpanel" aria-labelledby="nav-konsumsi-tab">
+    <section class="p-4" id="sec-toc">
+      @include('form.adddata.konsumsi')
+
+      <div class="d-flex justify-content-between mt-4">
+        <button type="button" class="btn btn-lg btn-primary"
+          onclick="document.getElementById('nav-pendapatan-nonpertanian-tab').click();">
+          <i class="fas fa-arrow-left me-2"></i>
+          Back
+        </button>
+        <button type="button" class="btn btn-lg btn-primary"
+          onclick="document.getElementById('nav-konsumsi-tab').click();">
+          Next
+          <i class="fas fa-arrow-right ms-2"></i>
+        </button>
+        <!-- <a href="#" class="btn btn-lg btn-primary">
           <i class="fas fa-save me-2"></i>
           Simpan
-        </a>
+        </a> -->
       </div>
     </section>
   </div>

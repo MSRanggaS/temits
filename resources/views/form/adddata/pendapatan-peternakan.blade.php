@@ -1,7 +1,7 @@
 <h5>Pendapatan dan Sumber Penghidupan Dari Sektor Pertanian</h5>
 <hr style="height: 2px">
 
-<form id="form-umum-strategic">
+<form id="form-umum-strategic" class="mb-5">
   <div class="row input-data">
     <div class="col-xxl-10">
       <h6>Sektor Peternakan</h6>
@@ -776,6 +776,65 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<h5>Pendapatan dan Sumber Penghidupan Non-Pertanian Lainnya</h5>
+<hr style="height: 2px">
+
+<form action="">
+  <div class="row input-data">
+    <div class="col-xxl-10">
+      <div class="mb-3">
+        <p class="form-label sub-head-5">Jenis Usaha Non-Pertanian apa saja yang anda tekuni?</p>
+        <div class="row">
+          <div class="col-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="umkm">
+              <label class="form-check-label" for="umkm">UMKM</label>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="pasir">
+              <label class="form-check-label" for="pasir">Usaha Pengambilan Pasir</label>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="sewarumah">
+              <label class="form-check-label" for="sewarumah">Usaha Sewa Rumah</label>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="nonsewarumah">
+              <label class="form-check-label" for="nonsewarumah">Usaha Bukan Usaha Rumah Tangga</label>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="pensiunan">
+              <label class="form-check-label" for="pensiunan">Dana Pensiunan</label>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="deposito">
+              <label class="form-check-label" for="deposito">Bunga Deposito</label>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="transfer">
+              <label class="form-check-label" for="transfer">Pendapatan Transfer</label>
             </div>
           </div>
         </div>
